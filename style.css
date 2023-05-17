@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;;
+}
+a{
+   text-decoration: none;
+   font-family: 'Ubuntu', sans-serif;
+   color: #ff8345;
+}
+
+.nav-container{
+    background-color: rgb(255, 254, 254);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    padding: 14px;
+    box-shadow: -3px 1px 7px 0px #888888;
+    color: #ff8345;
+}
+
+.nav-items li{
+    display: inline; 
+    list-style: none;
+    margin: 1.5%;
+    
+}
+
+.home-icon{
+    cursor: pointer;
+}
+
+
+.spaceing{
+  height: 60px;
+}
+
+
+/* about container section */
+
+.about-container{
+    /* background-color: rgb(238, 255, 0); */
+    /* height: 1000px; */
+    text-align: center;
+    padding: 1% 5%;
+    display: flex;
+    background-color: #f0f0f0;
+}
+.bio-img{
+    flex: 1;
+    display: inline;
+    
+}
+.bio-img img{
+    width: 77%;
+    border: 3px solid #ff8345;
+    box-shadow: -3px 0px 20px 4px #888888;
+    border-radius: 50%;
+    margin: 2% 0 0.5%;
+}
+
+
+
+.contact-profiles{
+    margin: 10% 0;
+    font-size: 0.8rem;
+    
+}
+.contact-profiles a{
+    padding: 0.5%;
+}
+
+.about-section{
+    flex: 1;
+}
+.name{
+    font-size: 1.4rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 25%;
+}
+
+.name span{
+    color: #ff8345;
+}
+.name span{
+    font-size: 1.6rem;
+    
+}
+
+.about{
+    font-size: 1.3rem;
+    margin: 2% 5% ;
+    
+}
+
+.bio{
+    width: 50%;
+    margin: 0 auto;
+    color: #4e4e4e;
+    
+}
+
+
+
+/* education container section */
+
+.education-container{
+    padding: 5% 20%;
+    text-align: center;
+    box-shadow: -3px 0px 5px 5px #888888;
+    background-color: #ff935c;
+    color: white;
+}
+
+.uni-section{
+    display: flex;
+}
+
+.uni-section i{
+    flex: 1;
+}
+.uni-section p{
+    padding-top: 2%;
+    flex: 3;
+}
+
+
+
+
+.college-section{
+    margin: 5% 0;
+    display: flex;
+}
+
+.college-section i{
+    flex: 1;
+}
+.college-section p{
+    padding-top: 2%;
+    flex: 3;
+}
+
+
+
+.school-section{
+    display: flex;
+}
+
+.school-section i{
+    flex: 1;
+}
+.school-section p{
+    padding-top: 2%;
+    flex: 3;
+}
+
+/* skills container section */
+
+.skill-cntainer{
+    padding: 5% 10%;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+
+.Ml-section{
+    display: flex;
+   
+}
+
+.Ml-section img{
+    width: 15%;
+    
+}
+.Ml-section p{
+    text-align: center;
+    padding: 5% 2%;
+   
+}
+
+
+.web-section{
+    display: flex;
+    margin: 5% 0;
+}
+
+.web-section img{
+    width: 15%;
+}
+.web-section p{
+    padding: 5% 2%;
+    
+}
+
+
+.mbl-section{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.mbl-section img{
+    width: 15%;
+    
+}
+.mbl-section p{
+    padding: 5% 2%;
+    
+}
+
+
+
+.desktop-section{
+    display: flex;
+}
+
+.desktop-section img{
+    width: 18%;
+}
+.desktop-section p{
+    padding: 5% 2%;
+    
+}
+
+
+
+.projects-container{
+    text-align: center;
+    padding: 2% 0%;
+    box-shadow: -3px 0px 5px 5px #888888;
+    background-color: #ff935c;
+    color: rgb(255, 255, 255);
+}
+
+
+.project{
+  background-color: #fffefe;
+  padding: 5px 5px 5px 5px;
+  color: #4e4e4e;
+  box-shadow: inset 0px -4px 4px 1px #888888;
+  height: 49px;
+  width: 100%;
+  margin: 5% 0% 5% 0%;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  text-align: center;
+  overflow: hidden;
+  transition: 1.5s;
+}
+.project h3{
+    padding: 5px;
+}
+.project p{
+    padding: 0% 15%;
+    padding-bottom: 1%;
+}
+
+.project:hover{
+  height: 145px;
+  
+}
+
+
+
+.chat{
+    position:fixed;
+	width:50px;
+	height:50px;
+	bottom:40px;
+	right:40px;
+	background-color:#ff8345;
+	color:rgb(255, 254, 254);
+	border-radius:50px;
+	text-align:center;
+	/* box-shadow: 2px 2px 3px #999; */
+}
+.chat i{
+    padding: 20%;
+}
+
+.footer-section{
+    height: 65px;
+    background-color: #ff8345;
+    text-align:center;
+    padding-top: 40px;
+}
+
+.footer-section a{
+    padding: 1%;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    .about-container{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+
+    .uni-section{
+
+        display: block;
+       
+        
+    }
+
+    .college-section{
+
+        display: block;
+       
+        
+        
+    }
+
+    .school-section{
+
+        display: block;
+        
+    }
+
+}
