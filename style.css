@@ -21,7 +21,7 @@ a{
 
 .nav-container{
     background-color: rgb(255, 254, 254);
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 0;
     position: fixed;
     width: 100%;
@@ -238,8 +238,9 @@ a{
     text-align: center;
     padding: 2% 0%;
     box-shadow: -3px 0px 5px 5px #888888;
-    background-color: #ff935c;
-    color: rgb(255, 255, 255);
+    /* background-color: #ff935c; */
+    background-color: #f0f0f0;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -248,7 +249,7 @@ a{
   padding: 5px 5px 5px 5px;
   color: #4e4e4e;
   box-shadow: inset 0px -4px 4px 1px #888888;
-  height: 49px;
+  height: 30px;
   width: 100%;
   margin: 5% 0% 5% 0%;
   transition: height 0.5s;
@@ -266,7 +267,7 @@ a{
 }
 
 .project:hover{
-  height: 145px;
+  height: 180px;
   
 }
 
@@ -290,7 +291,8 @@ a{
 
 .footer-section{
     height: 65px;
-    background-color: #ff8345;
+    /* background-color: #ff8345; */
+    background-color: #ff935c;
     text-align:center;
     padding-top: 40px;
 }
