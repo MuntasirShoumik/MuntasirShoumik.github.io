@@ -247,7 +247,7 @@ a{
 
 .project{
   background-color: #fffefe;
-  padding: 5px 5px 5px 5px;
+  padding: 7px;
   color: #4e4e4e;
   box-shadow: inset 0px -4px 4px 1px #888888;
   height: 30px;
@@ -268,7 +268,7 @@ a{
 }
 
 .project:hover{
-  height: 260px;
+  height: fit-content;
   
 }
 
